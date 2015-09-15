@@ -8,5 +8,25 @@
     <artifactId>BungeeCord</artifactId>
     <version>0.1-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>Sonatype</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </repository>
+    </repositories>
 
+    <dependencies>
+        <dependency>
+            <groupId>net.md-5</groupId>
+            <artifactId>bungeecord-api</artifactId>
+            <version>LATEST</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.mcsproject</groupId>
+            <artifactId>API</artifactId>
+            <version>0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 </project>

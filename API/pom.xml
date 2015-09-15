@@ -8,5 +8,17 @@
     <artifactId>API</artifactId>
     <version>0.1-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.0.24.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.msgpack</groupId>
+            <artifactId>msgpack-core</artifactId>
+            <version>0.7.0-M6</version>
+        </dependency>
+    </dependencies>
 
 </project>
