@@ -1,0 +1,5 @@
+name: Minecraft-Cloud-System
+version: 0.1
+main: net.mcsproject.bungee.MCS
+description: This plugin is a bungeecord plugin for Minecrat Cloud System
+author: MCS-Team

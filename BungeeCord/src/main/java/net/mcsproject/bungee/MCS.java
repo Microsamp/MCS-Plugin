@@ -1,30 +1,26 @@
-package net.mcsproject.cloudsigns;
+package net.mcsproject.bungee;
 
-import org.bukkit.plugin.java.JavaPlugin;
+import net.md_5.bungee.api.plugin.Plugin;
 
 import java.util.logging.Level;
 
 /**
- * Created by Rene on 14.09.2015.
+ * Created by Phenomax on 09.01.2016.
+ * Contributing to: https://github.com/MinecraftCloudSystem/MCS-Plugin/
  */
-public class MCS extends JavaPlugin {
-
-    @Override
-    public void onLoad() {
-
-    }
+public class MCS extends Plugin {
 
     @Override
     public void onEnable() {
+
         long startTime = System.currentTimeMillis();
 
         //Here everything else
 
         long stopTime = System.currentTimeMillis();
-
-        this.getLogger().log(Level.INFO, "MCS-Signs Plugin version "
+        this.getLogger().log(Level.INFO, "MCS-BungeeCord Plugin version "
                 + this.getDescription().getVersion() + "by "
-                + this.getDescription().getAuthors().toString().replaceAll("(\\[|\\])", "") + " enabled! ("
+                + this.getDescription().getAuthor().replaceAll("(\\[|\\])", "") + " enabled! ("
                 + " enabled. ("
                 + (stopTime - startTime) + " ms)");
     }
